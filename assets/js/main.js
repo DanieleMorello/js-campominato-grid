@@ -14,10 +14,10 @@ btnEL.addEventListener("click", function () {
   const containerEL = document.querySelector(".container")
 
   // Creo un max numero di celle
-  let numCells = 100;
+  let numCells = 101;
 
   // Creo un ciclo n volte per le celle
-  for (let i = 0; i < numCells; i++) {
+  for (let i = 1; i < numCells; i++) {
     const cell = `<div class="cell">${i}</div>`
     containerEL.innerHTML += cell
   }

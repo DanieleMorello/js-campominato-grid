@@ -21,6 +21,7 @@ img {
   justify-content: space-between;
   align-items: center;
   margin-right: 1.5rem;
+  height: 6.2rem;
 }
 
 .logo {
@@ -41,3 +42,19 @@ button {
   padding: 0 2rem;
 }
 /* #endregion Header */
+
+/* #region Main */
+#site_main {
+  background-color: var(--green);
+  height: calc(100vh - 8.7rem);
+}
+/* #endregion Main */
+
+/* #region Footer */
+#site_footer {
+  margin-left: 1.2rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+/* #endregion Footer */

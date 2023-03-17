@@ -1,3 +1,4 @@
+/* #region Common */
 :root {
   --gray: #efefef;
   --green: #7fffd4;
@@ -38,6 +39,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* #endregion Common */
+
 /* #region Utilies */
 img {
   max-width: 100%;

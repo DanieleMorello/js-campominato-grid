@@ -1,0 +1,43 @@
+:root {
+  --gray: #efefef;
+  --green: #7fffd4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* #region Utilies */
+img {
+  max-width: 100%;
+} 
+/* #endregion Utilies */
+
+/* #region Header */
+#site_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+[alt="Logo"] {
+  width: 100px;
+} 
+
+select {
+  background-color: var(--gray);
+  padding-right: 3rem;
+}
+
+button {
+  padding: 0 2rem;
+}
+/* #endregion Header */

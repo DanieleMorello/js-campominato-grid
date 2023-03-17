@@ -47,7 +47,7 @@ img {
 /* #endregion Utilies */
 
 /* #region Header */
-#site_header {
+#app_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,14 +75,14 @@ button {
 /* #endregion Header */
 
 /* #region Main */
-#site_main {
+#app_main {
   background-color: var(--green);
   height: calc(100vh - 10.7rem);
 }
 /* #endregion Main */
 
 /* #region Footer */
-#site_footer {
+#app_footer {
   margin-left: 1.2rem;
   height: 4.5rem;
   display: flex;

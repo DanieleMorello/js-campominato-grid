@@ -18,7 +18,7 @@ btnEL.addEventListener("click", function () {
 
   // Creo un ciclo n volte per le celle
   for (let i = 0; i < numCells; i++) {
-    const cell = `<div class="cell"></div>`
+    const cell = `<div class="cell">${i}</div>`
     containerEL.innerHTML += cell
   }
 

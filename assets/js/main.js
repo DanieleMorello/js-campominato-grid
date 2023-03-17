@@ -8,13 +8,13 @@
 
 // L'utente clicca su un bottone che genererà una griglia di gioco quadrata.
 // Seleziono il bottone e lo salvo in una variabile
-const btnEL = document.querySelector("button");
+const btnEL = document.querySelector("button")
 btnEL.addEventListener("click", function () {
   // Seleziono il container e lo salvo in una variabile
   const containerEL = document.querySelector(".container")
 
   // Creo un max numero di celle
-  let numCells = 101;
+  let numCells = 101
 
   // Creo un ciclo n volte per le celle
   for (let i = 1; i < numCells; i++) {
@@ -23,12 +23,12 @@ btnEL.addEventListener("click", function () {
   }
 
   // Seleziono una cella che ha classe cell e active
-  const cellEl = document.querySelectorAll(".cell");
-  
+  const cellEl = document.querySelectorAll(".cell")
   // Aggiungo eventlisner per la classe active ciclando per la lunghezza dell'array cellEl
   for (let i = 0; i < cellEl.length; i++) {
     const thisCell = cellEl[i];
     console.log(thisCell);
+
     thisCell.addEventListener("click", function () {
       thisCell.classList.toggle("bg_blue")
     });

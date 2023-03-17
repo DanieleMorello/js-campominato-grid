@@ -1,6 +1,7 @@
 :root {
   --gray: #efefef;
   --green: #7fffd4;
+  --light: #ffffff;
   --dark: #000000;
   --blue: #0000ff;
 }
@@ -37,8 +38,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-
 /* #region Utilies */
 img {
   max-width: 100%;
@@ -46,6 +45,15 @@ img {
 
 .bg_blue {
   background-color: var(--blue);
+  color: var(--light);
+}
+
+.normal {
+  width: calc(100% / 9);
+}
+
+.hard {
+  width: calc(100% / 7);
 }
 /* #endregion Utilies */
 
@@ -70,6 +78,11 @@ img {
 select {
   background-color: var(--gray);
   padding-right: 3rem;
+}
+
+select,
+button {
+  cursor: pointer;
 }
 
 button {

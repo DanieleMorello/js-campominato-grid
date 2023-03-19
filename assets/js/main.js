@@ -12,6 +12,7 @@ const btnEL = document.querySelector('button')
 btnEL.addEventListener("click", function() {
   // Seleziono il container e lo salvo in una variabile
   const containerEL = document.querySelector('.container')
+  containerEL.innerHTML = ''
 
   // Creo un max numero di celle
   let numCells = 101
@@ -31,6 +32,7 @@ btnEL.addEventListener("click", function() {
 
     thisCell.addEventListener('click', function() {
       thisCell.classList.toggle('bg_blue')
+      console.log(`Cella cliccata: ${thisCell.textContent}`)
     });
   }
 });
